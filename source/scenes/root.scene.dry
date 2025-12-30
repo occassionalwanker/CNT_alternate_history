@@ -104,6 +104,7 @@ Q.agri_none = 0;
 //Congress of 1931 points
 Q.reform_points = 0;
 Q.revolut_points = 0;
+Q.NIF = 0;
 
 
 // support for centralist plan
