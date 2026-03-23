@@ -1,0 +1,40 @@
+title: The Call for Revolution
+subtitle: The radicals rally
+view-if: year = 1931 and month = 6 and forthnight = 2 and revolut_points >= 3
+priority: -1
+max-visits: 1
+tags: event
+new-page: true
+
+= The Call for Revolution 
+
+The successfull challenge and diminishing of the National Committee's authority over the CNT has emboldened the reovlutionaries.
+On a Plenum assembly of the Catalan Regional Federation (one of the largest in the country) the delegates of the Fabric and Textile Union, Buenaventura Durruti and Garcia Oliver (as well as two of the most passionate anarchists in the CNT) persuaded their union to propose the sending of a revolutionary plan to the Joint Defence Committee of the CNT and FAI.
+What is the Plenum's decision?
+
+- @accept
+- @no
+- @nicetry
+
+[? if reformist_strength = 45 : There were also some voices in the Congress who denounced the "reformist" tendencies of the CNT and even expressed doubts about any further dealings. The Trabazon was called a "dictate" which an honest anarchist would never give in to. ?]
+[? if revolutionary_strength = 40 : Despite the revolutionary surge in the CNT there were some doubts about the Confederation's convictions to the revolutionary cause. ?]
+
+@accept
+title: The Plenum agrees
+view-if: revolut_points == 5;
+subtitle: This will anger the reformists considerably!
+on-arrival: revolutionary_strength +=5, fai_ties += 1, reformist_dissent +=10;
+The Plenum is not easily convinced but the revolutionary momentum in these past months manages to sway most of the delegates, even in reformist Catalonia.
+
+@nicetry
+title: The Plenum agrees
+view-if: revolut_points <= 5;
+subtitle: This will anger the reformists considerably!
+on-arrival: fai_ties += 1, reformist_dissent +=10;
+The motion causes a massive controversy as the Plenum passes it barely. Some of the more reformist delegates are seen leaving disgusted and it is reasonable to assume that their answer will come shortly.
+
+@no
+title: The Plenum disagrees
+on-arrival: reformist_dissent -=5
+The Plenum is not easily convinced but the revolutionary momentum in these past months manages to sway most of the delegates, even in reformist Catalonia.
+There is no need to break the tenuous balance in the Federation by jumping to dangerous adventures.
