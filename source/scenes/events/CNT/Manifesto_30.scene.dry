@@ -1,6 +1,6 @@
 title: The Manifesto of the Thirty
 subtitle: The Reformists appeal
-view-if: year = 1931 and month = 8 and forthnight = 1 and revolut_points >= 3
+view-if: year = 1931 and month = 8 and forthnight = 1 and revolut_points >= 4
 priority: -1
 max-visits: 1
 tags: event
