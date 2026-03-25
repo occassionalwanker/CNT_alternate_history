@@ -13,12 +13,12 @@ The manifesto claims that the convictions of the authors to the Confederation an
 Its main criticism is pointed at the revolutionary fervour of a few "individuals" which romanticize "The Revolution" and its violence. It warns that these "militants" might endanger the collective by acting without  preparation towards a revolution that has no clarity and trusts only to chance.
 What they propose is a preparation not in martiality, but a moral one, so that the revolution can be the achivement of "the masses", not a few individuals with authority.
 
-  "We are most certainly revolutionaries, but we are not cultivating the myth of revo-
-lution. We seek an end to capitalism and the state, be it red, white or black, not so
+"We are most certainly revolutionaries, but we are not cultivating the myth of revolution. 
+We seek an end to capitalism and the state, be it red, white or black, not so
 we may erect a new tyranny in its place, but so that the economic revolution of the
 working class can thwart the reintroduction of all power, whatever its persuasion.
-We desire a revolution born from the most profound feelings of people, as it is tak-
-ing shape today. We do not want a revolution that is offered to us, perpetrated by
+We desire a revolution born from the most profound feelings of people, as it is taking
+shape today. We do not want a revolution that is offered to us, perpetrated by
 a handful of individuals who, were they to succeed, would, however they label it,
 inevitably convert themselves into dictators on the morrow of their triumph. "
 
@@ -28,5 +28,6 @@ While some have agreed with their positions, the more radical comrades and espec
 
 @interesting
 title: Wait and see
-on-arrival: if revolutionary_strength >= 30, reformist_dissent += 5, revolutionary_dissent += 5, unionist_dissent += 5
-We can only imagine what the fallout will, but it will be big...
+on-arrival: if revolutionary_strength >= 30, reformist_dissent += 5; revolutionary_dissent += 5; unionist_dissent += 5;
+We can only imagine what the fallout will, but it will be big... 
+This is the point of no return for the CNT. The revolutionary tendency and the unionist movement will finally clash and one will lose its influence.
