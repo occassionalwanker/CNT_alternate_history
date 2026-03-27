@@ -20,18 +20,18 @@ What is the Plenum's decision?
 title: The Plenum agrees
 view-if: revolut_points == 5;
 subtitle: This will anger the reformists considerably!
-on-arrival: revolutionary_strength +=5, fai_ties += 1, reformist_dissent +=10; revolut_points += 3
+on-arrival: revolutionary_strength += 5, fai_ties += 1, reformist_dissent += 10; revolut_points += 3
 The Plenum is not easily convinced but the revolutionary momentum in these past months manages to sway most of the delegates, even in reformist Catalonia.
 
 @nicetry
 title: The Plenum agrees
 view-if: revolut_points <= 5;
 subtitle: This will anger the reformists considerably!
-on-arrival: fai_ties += 1, reformist_dissent +=10; revolut_points += 1
+on-arrival: fai_ties += 1, reformist_dissent += 10; revolut_points += 1
 The motion causes a massive controversy as the Plenum passes it barely. Some of the more reformist delegates are seen leaving disgusted and it is reasonable to assume that their answer will come shortly.
 
 @no
 title: The Plenum disagrees
-on-arrival: reformist_dissent -=5; reformist_points += 3
+on-arrival: reformist_dissent -= 5; reformist_points += 3
 The Plenum is not easily convinced but the revolutionary momentum in these past months manages to sway most of the delegates, even in reformist Catalonia.
 There is no need to break the tenuous balance in the Federation by jumping to dangerous adventures.
