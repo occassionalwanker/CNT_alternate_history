@@ -28,6 +28,6 @@ While some have agreed with their positions, the more radical comrades and espec
 
 @interesting
 title: Wait and see
-on-arrival: if revolutionary_strength >= 30, reformist_dissent += 5; revolutionary_dissent += 5; unionist_dissent += 5;
+on-arrival: if revolutionary_strength >= 30, reformist_dissent += 5; revolutionary_dissent += 5; unionist_dissent += 5; revolut_points += 1; reform_points += 1
 We can only imagine what the fallout will, but it will be big... 
 This is the point of no return for the CNT. The revolutionary tendency and the unionist movement will finally clash and one will lose its influence.
