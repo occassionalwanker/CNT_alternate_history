@@ -27,7 +27,7 @@ The Plenum is not easily convinced but the revolutionary momentum in these past 
 title: The Plenum agrees
 view-if: revolut_points <= 5;
 subtitle: This will anger the reformists considerably!
-on-arrival: fai_ties += 1, reformist_dissent +=10; revolut_points += 2
+on-arrival: fai_ties += 1, reformist_dissent +=10; revolut_points += 1
 The motion causes a massive controversy as the Plenum passes it barely. Some of the more reformist delegates are seen leaving disgusted and it is reasonable to assume that their answer will come shortly.
 
 @no
