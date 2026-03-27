@@ -1,0 +1,34 @@
+title: Counterarguments
+subtitle: The culmination of the confrontation
+view-if: year = 1931 and month = 9 and forthnight = 1
+priority: -1
+max-visits: 1
+tags: event
+new-page: true
+
+= Culmination
+
+The Manifesto of the Thirty (its authors now called treintistas) was the final drop in the cup which was already on the verge of spilling.
+The more radical anarchists in the CNT were outraged by the moderacy and perceived collaborationism with the Second Republic and by what was seen as an attack against the FAI. Garcia Oliver and Durruti both reacted with speeches and publications, countering that the only options are to kneel before the social democracy and collaboration of the Cortes' parties or to revolt - and the anarchists must choose the latter.
+In a scandalous, but not surprising turn of events, Solidaridad Obrera's editorial staff has pledged their support publicly to the treintistas. Hardly surprising, given the fact that some of the treintistas are part of that staff and of the National Committee. However, that move has angered the revolutionaries even more and threatens to split the Confederation completely.
+How will the members of the Confederation react towards this last drop?
+
+- @Unity
+- @Reform
+- @Revolut
+
+
+@Unity
+view-if: revolut_points <= 9 and reform_points <= 9
+subtitle: There is no place for clashes, we must choose the path of recounciliation.
+on-arrival: reformist_dissent -= 5;revolutionary_dissent -= 5; unionist_strength += 10
+The divide between our rank and file and the union leaders must be overcome through careful reconsideration and negotiations.
+Joan Peiro, who already has some doubts about the Manifesto, will put all his abilities into the reconciliation efforts. By persua
+
+
+
+
+The revolutionary rumblings of Durruti and Oliver, along with the challenged authority of the more moderate National Committee, prompted its members and their allies to act. Thus in the final days of July they issued a manifesto, signed by, all in all, thirty syndicalists and "reformists", close to the Solidaridad circle.
+The manifesto claims that the convictions of the authors to the Confederation and to the pains of the working class are stornger than ever. It also points out that the CNT had its part in the fall of the monarchy while also criticizing the inaction of the Provisional government while the economic reality is becoming worse and worse. 
+Its main criticism is pointed at the revolutionary fervour of a few "individuals" which romanticize "The Revolution" and its violence. It warns that these "militants" might endanger the collective by acting without  preparation towards a revolution that has no clarity and trusts only to chance.
+What they propose is a preparation not in martiality, but a moral one, so that the revolution can be the achivement of "the masses", not a few individuals with authority.
