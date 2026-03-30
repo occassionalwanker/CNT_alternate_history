@@ -21,31 +21,30 @@ How will the members of the Confederation react towards this last drop?
 @Unity
 view-if: revolut_points <= 9 and reform_points <= 9 and unionist_strength >= 30
 subtitle: There is no place for clashes, we must choose the path of recounciliation.
-on-arrival: reformist_dissent -= 5;revolutionary_dissent -= 5; unionist_strength += 10
-The divide between our rank and file and the union leaders must be overcome through careful reconsideration and negotiations.
+on-arrival: reformist_dissent -= 5;revolutionary_dissent -= 5; unionist_strength += 10; n_advisors -= 1 if durruti_advisor == 1; durruti_advisor = 0; n_advisors -= 1 if pestana_advisor == 1; pestana_advisor = 0; n_advisors -= 1 if segui_advisor == 1; segui_advisor = 0; n_advisors -= 1 if arin_advisor == 1; arin_advisor = 0
+The divide between our rank and file and the union leaders must be overcome through careful reconsideration and negotiations. 
 Joan Peiro, who already has some doubts about the Manifesto, will put all his abilities into the reconciliation efforts. By persuading the already disillusioned Angel Pestana and some of the more moderate members of the National Committee and Solidaridad's editorial staff to resign we can save the unity of the Confederation.
 At the same time, we should try to isolate the Nosotros trio (Durruti, Oliver and Francisco Ascaso) as much as we can by embracing a more anarchist but reasonable position on the revolution question.
 
-The resignations were not enogugh to placate the Nosotros group, but they have remained a vocal minority and even the other faistas are content with the changes. The reformists who resigned, on the other hand, we also expelled and their unions are not happy about that.
+The resignations were not enough to placate the Nosotros group, but they have remained a vocal minority and even the other faistas are content with the changes. The reformists who resigned, on the other hand, and their unions, are not happy about either. This might cause some trouble down the line.
 
 
 - @Reform
 view-if: reform_points >= revolut_points
 subtitle: We will not be stopped by a few angry radicals.
-on-arrival: reformist_dissent -= 15; revolutionary_dissent += 15; reformist_strength += 10
+on-arrival: reformist_dissent -= 15; revolutionary_dissent += 15; reformist_strength += 10; n_advisors -= 1 if durruti_advisor == 1; durruti_advisor = 0; n_advisors -= 1 if ascaso_advisor == 1 ascaso_advisor
 The treintistas have enough influence and support to hold the fort, while the storm passes. Let the faistas know their usurpation attempt will not work here!
 Meanwhile, it would be wise to use Solidaridad Obrera and unleash series of theoretical essays so that we can solidify our position. Drown the anarchists with our intellectual prowess and win the masses back!
 
-After their attacks failed to gain momentum and win over the rank and file, the revolutionaries bitterly predicted the doom of the labour movement. Some, like Durruti and Ascaso, have decided to resign from the Confederation. 
+After their attacks failed to gain momentum and win over the rank and file, the revolutionaries bitterly predicted the doom of the labour movement. Some, like Durruti and Ascaso, have decided to leave the Confederation. 
 While that hurts us also, it will pass and without them, we can continue on our path free from those annoying radicals.
 
 - @Revolut
 view-if: revolut_points >= reform_points
-subtitle: Are we a revolutionary union or waht?
-on-arrival: reformist_dissent += 15 ;revolutionary_dissent -= 15; revolutionary_strength += 10; intelelctual_strength += 5;
-The anarchists' sway in the Confederation is strong enough to oust the current National Committee and demand the resignations of Solidaridad's reformist editors.
-The bitter reformist will probably plot secession, but what of it? Let them collaborate on their own, we are real fighters, not burgeois traitors!
+subtitle: Are we a revolutionary union or what?
+on-arrival: reformist_dissent += 15 ; revolutionary_dissent -= 15; revolutionary_strength += 10; intelelctual_strength += 5; n_advisors -= 1 if pestana_advisor == 1; pestana_advisor = 0; n_advisors -= 1 if peiro_advisor == 1; peiro_advisor = 0; n_advisors -= 1 if segui_advisor == 1; segui_advisor = 0; n_advisors -= 1 if arin_advisor == 1; arin_advisor = 0
+The anarchists' sway in the Confederation is strong enough to oust the current National Committee and demand the resignations of Solidaridad's editors.
+The bitter reformists will probably plot secession, but what of it? Let them collaborate on their own, we are real fighters, not burgeois traitors!
 
-The whole National Committee has resigned and many of its member, among which Angel Pestana, have been expelled. The same is the fate of the whole editorial staff of Solidaridad Obrera. Others, like Peiro, are still in the Confederation, but without any real power.
-The local unions (mostly Catalan) of the expelled are outraged and probably will secede. The disillusioned Pestana will also probably try to stir some trouble.  
-There is only one path - Revolution, here and now!
+The whole National Committee has resigned and many of its member, among which Angel Pestana, have resigned. The same is the fate of the whole editorial staff of Solidaridad Obrera.The former influental figures, like Peiro and Pestana, are now without any real power.
+The local unions (mostly Catalan) of the reformists are outraged and probably will secede. The disillusioned Pestana will also probably try to stir some trouble.  
