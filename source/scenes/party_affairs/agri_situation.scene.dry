@@ -1,7 +1,7 @@
 title: The Agricultural Situation
 new-page: true
 is-card: true
-view-if: year = 1931 and month = 10 forthnight = 2 and land_reform = 1
+view-if: year = 1931 and month = 11 forthnight = 2
 on-arrival: month_actions += 1; agri_situation_timer = 200
 frequency: 200
 max-visits: 1
