@@ -9,12 +9,8 @@ new-page: true
 = Culmination
 
 Joan Peiro has bought some time after the crisis surrounding the Manifesto of the Thirty. But what now? 
-Both the revolutionaries and nor the treintistas are unhappy, complaining how the they were given were not enough
+Both the revolutionaries and nor the treintistas are unhappy, complaining how the they were given less than what they demanded. 
 
-The Manifesto of the Thirty (its authors now called treintistas) was the final drop in the cup which was already on the verge of spilling.
-The more radical anarchists in the CNT were outraged by the moderacy and perceived collaborationism with the Second Republic and by what was seen as an attack against the FAI. Garcia Oliver and Durruti both reacted with speeches and publications, countering that the only options are to kneel before the social democracy and collaboration of the Cortes' parties or to revolt - and the anarchists must choose the latter.
-In a scandalous, but not surprising turn of events, Solidaridad Obrera's editorial staff has pledged their support publicly to the treintistas. Hardly surprising, given the fact that some of the treintistas are part of that staff and of the National Committee. However, that move has angered the revolutionaries even more and threatens to split the Confederation completely.
-How will the members of the Confederation react towards this last drop?
 
 - @Unity
 - @Reform
@@ -24,9 +20,8 @@ How will the members of the Confederation react towards this last drop?
 @Unity
 view-if: revolut_points <= 9 and reform_points <= 9 and unionist_strength >= 30
 subtitle: There is no place for clashes, we must choose the path of recounciliation.
-on-arrival: reformist_dissent -= 5;revolutionary_dissent -= 5; unionist_strength += 10; n_advisors -= 1 if durruti_advisor == 1; durruti_advisor = 0; n_advisors -= 1 if pestana_advisor == 1; pestana_advisor = 0; n_advisors -= 1 if segui_advisor == 1; segui_advisor = 0; n_advisors -= 1 if arin_advisor == 1; arin_advisor = 0
-The divide between our rank and file and the union leaders must be overcome through careful reconsideration and negotiations. 
-Joan Peiro, who already has some doubts about the Manifesto, will put all his abilities into the reconciliation efforts. By persuading the already disillusioned Angel Pestana and some of the more moderate members of the National Committee and Solidaridad's editorial staff to resign we can save the unity of the Confederation.
-At the same time, we should try to isolate the Nosotros trio (Durruti, Oliver and Francisco Ascaso) as much as we can by embracing a more anarchist but reasonable position on the revolution question.
+on-arrival: reformist_dissent -= 10;revolutionary_dissent -= 10; unionist_strength += 10;
+
+
 
 The resignations were not enough to placate the Nosotros group, but they have remained a vocal minority and even the other faistas are content with the changes. The reformists who resigned, on the other hand, and their unions, are not happy about either. This might cause some trouble down the line.
