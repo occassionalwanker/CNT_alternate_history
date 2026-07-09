@@ -9,7 +9,8 @@ new-page: true
 = Culmination
 
 Joan Peiro has bought some time after the crisis surrounding the Manifesto of the Thirty. But what now? 
-Both the revolutionaries and nor the treintistas are unhappy, complaining how the they were given less than what they demanded. 
+The most radical of both the revolutionaries and the treintistas are unhappy, complaining how the they were given less than what they demanded. All the while, a lot of the more moderate memebers of the CNT are tiring of the uneasy and seemingly even status quo. Each of the parties will try, out of desperation or conviction, to strike again and persuade the doubtfull and undecided members to support their vision.
+For this purpose, a new extraordinary Congress will have to convene, in Barcelona.
 
 
 - @Unity
@@ -18,10 +19,28 @@ Both the revolutionaries and nor the treintistas are unhappy, complaining how th
 
 
 @Unity
-view-if: revolut_points <= 9 and reform_points <= 9 and unionist_strength >= 30
-subtitle: There is no place for clashes, we must choose the path of recounciliation.
+view-if: revolut_points <= 9 and reform_points <= 9 and unionist_strength >= 45
+subtitle: The center holds.
 on-arrival: reformist_dissent -= 10;revolutionary_dissent -= 10; unionist_strength += 10;
+Joan Peiro took the floor and expoused his vision for the union. His words of a revolutionary spirit, "tempered in the furnce of the revolutionary gymnasium and enriched by anarchist principles" convinced some of the more cautios and patient faistas. Peiro spoke against the centralization (to comrade de Santillan's displeasure) and ambitous plans in favour of a revolution, but one that needs allies and that needs to be cautious and more gradual, rather than to "bolshevize the CNT and the whole of Spain". These last words won him the ovation of the more reformist and syndicalist Catalunian unions.
+In the end, Joan Peiro managed, despite being a treintist and a member of the FAI, to convince the majority of the delegates in favour of unity and calmness, at least untill the danger of rapture still looms.
+Needless to say, the Nosotros group loudly denounced his moderate vision and comrades Durruti and Ascaso were later rumoured to consider dropping out of the CNT as a whole. At the same time, the more fervent reformist unions in the Levante and Catalunia also talked of an alternative to the CNT (without falling in the fold of the Socialists).
 
 
+@Reform
+choose-if: revolut_points >= 5 and reform_points <= 5
+subtitle: The Old Guard returns.
+on-arrival: reformist_dissent -= 20; revolutionary_dissent += 20; reformist_strength += 15; revolutionary_leave = 1; seville -= 1; asturias -= 1
+Using the support from the still predominantly reformist unions in Catalunia and Levante, an unexpeected thing happened. The Reformists, with the reluctant support from Joan Peiro and the more moderate members of the union (event those revolutionaries, tired of disputes), voiced their displeasure with the deicison of the Congress and after firece disputes, they managed to rescind the expleation of Angel Pestana. Their new leader, Francesc Arin, one of the authors of the Manifesto of the Thirty, promised changes and a more independent direction, as well as closer cooperation with the FAI and more transparency on any relations with the State.
+This however infuriated the Revolutionaries, with Garcia Oliver warning that the path to collaboration starts with complacency. Furthermore, Durruti and Ascaso publicly left the Congress and resigned from the Confederation, followed by other fervent anarchists. Their final words were warnings, not of violence, but of the virus of hierarchy and collaboration. 
+As the last anarchists resigned, they sang "A las barricadas" on their way out of the hall.
+
+@Revolut
+choose-if: revolut_points >= 5 and reform_points <= 5
+subtitle: The Old Guard returns.
+on-arrival: reformist_dissent -= 20; revolutionary_dissent += 20; reformist_strength += 15; revolutionary_leave = 1; seville -= 1; asturias -= 1
+Using the support from the still predominantly reformist unions in Catalunia and Levante, an unexpeected thing happened. The Reformists, with the reluctant support from Joan Peiro and the more moderate members of the union (event those revolutionaries, tired of disputes), voiced their displeasure with the deicison of the Congress and after firece disputes, they managed to rescind the expleation of Angel Pestana. Their new leader, Francesc Arin, one of the authors of the Manifesto of the Thirty, promised changes and a more independent direction, as well as closer cooperation with the FAI and more transparency on any relations with the State.
+This however infuriated the Revolutionaries, with Garcia Oliver warning that the path to collaboration starts with complacency. Furthermore, Durruti and Ascaso publicly left the Congress and resigned from the Confederation, followed by other fervent anarchists. Their final words were warnings, not of violence, but of the virus of hierarchy and collaboration. 
+As the last anarchists resigned, they sang "A las barricadas" on their way out of the hall.
 
 The resignations were not enough to placate the Nosotros group, but they have remained a vocal minority and even the other faistas are content with the changes. The reformists who resigned, on the other hand, and their unions, are not happy about either. This might cause some trouble down the line.
