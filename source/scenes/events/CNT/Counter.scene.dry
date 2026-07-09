@@ -19,7 +19,7 @@ How will the members of the Confederation react towards this last drop?
 
 
 @Unity
-view-if: revolut_points <= 9 and reform_points <= 9 and unionist_strength >= 30
+choose-if: revolut_points <= 9 and reform_points <= 9 and unionist_strength >= 30
 subtitle: There is no place for clashes, we must choose the path of recounciliation.
 on-arrival: reformist_dissent -= 5;revolutionary_dissent -= 5; unionist_strength += 10; n_advisors -= 1 if durruti_advisor == 1; durruti_advisor = 0; n_advisors -= 1 if pestana_advisor == 1; pestana_advisor = 0; n_advisors -= 1 if segui_advisor == 1; segui_advisor = 0; n_advisors -= 1 if arin_advisor == 1; arin_advisor = 0
 The divide between our rank and file and the union leaders must be overcome through careful reconsideration and negotiations. 
@@ -30,7 +30,7 @@ The resignations were not enough to placate the Nosotros group, but they have re
 
 
 - @Reform
-view-if: reform_points >= revolut_points
+choose-if: reform_points >= revolut_points
 subtitle: We will not be stopped by a few angry radicals.
 on-arrival: reformist_dissent -= 15; revolutionary_dissent += 15; reformist_strength += 10; n_advisors -= 1 if durruti_advisor == 1; durruti_advisor = 0; n_advisors -= 1 if ascaso_advisor == 1 ascaso_advisor
 The treintistas have enough influence and support to hold the fort, while the storm passes. Let the faistas know their usurpation attempt will not work here!
@@ -40,7 +40,7 @@ After their attacks failed to gain momentum and win over the rank and file, the 
 While that hurts us also, it will pass and without them, we can continue on our path free from those annoying radicals.
 
 - @Revolut
-view-if: revolut_points >= reform_points
+choose-if: revolut_points >= reform_points
 subtitle: Are we a revolutionary union or what?
 on-arrival: reformist_dissent += 15 ; revolutionary_dissent -= 15; revolutionary_strength += 10; intelelctual_strength += 5; n_advisors -= 1 if pestana_advisor == 1; pestana_advisor = 0; n_advisors -= 1 if peiro_advisor == 1; peiro_advisor = 0; n_advisors -= 1 if segui_advisor == 1; segui_advisor = 0; n_advisors -= 1 if arin_advisor == 1; arin_advisor = 0
 The anarchists' sway in the Confederation is strong enough to oust the current National Committee and demand the resignations of Solidaridad's editors.
