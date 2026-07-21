@@ -39,6 +39,7 @@ Meanwhile, it would be wise to use Solidaridad Obrera and unleash series of theo
 After their attacks failed to gain momentum and win over the rank and file, the revolutionaries bitterly predicted the doom of the labour movement. Some, like Durruti and Ascaso, have decided to leave the Confederation. 
 While that hurts us also, it will pass and without them, we can continue on our path free from those annoying radicals.
 
+
 - @Revolut
 choose-if: revolut_points >= reform_points
 subtitle: Are we a revolutionary union or what?
